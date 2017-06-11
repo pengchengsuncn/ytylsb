@@ -1,0 +1,96 @@
+@charset "utf-8";
+*{margin:0px;padding:0px;list-style:none;}
+* img{border:none;}
+body{font:12px/18px Tahoma, Arial, "宋体"; color:#7e7e7e; height:100%; background:url(db_03.gif) top center;}
+a{color:#7e7e7e; text-decoration:none;}
+a:hover{color:#337601; text-decoration:none;}
+.fl{float:left;}
+.fr{float:right;}
+.public{width:1008px;margin:0 auto;padding:0 auto;}
+
+
+.fl,.fr,.public{overflow:hidden;}
+.clearfix{clear:both;}
+.zt{font-family: "Microsoft YaHei", monospace !important;}
+/*----------------------------------*/
+.topp{background:url(topp_01.jpg) no-repeat center; height:105px;}
+.topK{background:url(../images/tbj_01.jpg) no-repeat center;}
+
+
+.bannerk{ background:url(bj_02.jpg) center no-repeat; height:400px;}
+.lx{ height:77px;}
+.banner{ text-align:center; padding-top:20px;}
+
+.nrtop{ height:270px;}
+.zc{ width:342px;height:270px;}
+.gy1{ height:54px; overflow:hidden;}
+.gy2{ height:98px; overflow:hidden;}
+.gy3{ line-height:24px; padding-top:7px; width:319px;}
+
+.zj{ background:url(jg_06.gif) no-repeat left top; height:270px; padding-left:20px; width:345px;}
+.zjtit{ height:54px; overflow:hidden;}
+.xwul{ line-height:30px; margin-top:-6px;}
+.xwul li{ width:345px; display:block; overflow:hidden;}
+.xwul span{ color:#939faf; padding-left:15px;}
+.spk{ width:295px; height:270px;background:url(jg_06.gif) no-repeat left top;}
+.sp{ height:204px; padding-left:20px; width:275px;}
+.cptit{ height:34px; background:url(cpp_21.gif) repeat-x;}
+/* 未知大小的图片在已知容器中的垂直居中和水平居中 */
+.cp{ padding-top:20px; width:1045px;}
+.cp li{ float:left; padding-right:30px; padding-bottom:20px;}
+.cp dl dd{float:left; padding-bottom:4px;}
+.cp li dl p a{ width:176px; height:23px;*height:18px;_height:18px;text-align:center; background:#efefef; line-height:19px; clear:both; display:block; overflow:hidden;}
+.cp li dl p a:hover{ width:176px; height:23px;*height:18px;_height:18px; text-align:center; background:#cbe489; line-height:19px; clear:both; color:#327501;}
+.cp dl dd img{margin-top:expression(66-this.height/2);max-height:132px;max-width:170px;}/* max-height可限制图片的最大高度 */
+.cp dl dd a{border:3px solid #ececec; text-align:center; margin-bottom:10px; display:block;}
+.cp dl dd a:hover {border:3px solid #cbe489; text-align:center;}
+.cp dl dd a,.cp dl dd a:hover{width:170px;height:132px; display:block;text-align:center;vertical-align:middle;display:table-cell;}
+/* 未知大小的图片在已知容器中的垂直居中和水平居 */
+.cpk{ overflow:hidden; margin-bottom:21px; height:440px;}
+
+.dbbj{ background:url(dbp_35.gif) repeat-x; height:104px;}
+.dbk{ background:url(db_28.jpg) center no-repeat; height:104px;}
+.db{ padding-top:13px; color:#fff; width:800px; height:104px;}/*newadd width height*/
+.logo2{ margin-left:-2px;}
+
+.ny{ padding-top:20px;}
+.nyzc{ width:274px; background:url(nyp_07.gif) repeat-y right;}
+.nyzct{ height:23px; background:url(nyt_03.gif) no-repeat; font:bold 15px/18px "Microsoft YaHei", monospace !important; color:#FFF; overflow:hidden; padding:25px 0 0 31px;}
+.nyzct span{font:bold 15px/18px Arial; padding-left:6px;}
+.nyzcul{background:url(nybj_06.gif) repeat-y; padding-left:24px; padding-top:12px;}
+.nyzcul li{ padding-top:10px; font:14px/32px "Microsoft YaHei", monospace !important;}
+.nyzcul li a{width:195px; height:32px; display:block; background:url(n2_09.gif) no-repeat; padding-left:28px; color:green;}
+.nyzcul li a:hover,.nyzcul li a.b{background:url(n1_09.gif) no-repeat; color:green; font-weight:bold;}
+.nyzd{height:95px; text-align:right;}
+
+.nyyc{ width:734px;}
+.nyyct{ background:url(nyy_03.gif) no-repeat; height:48px; overflow:hidden;font:14px/48px "Microsoft YaHei", monospace !important; padding-left:60px;color:#666666;}
+.nyyct a{color:#666666;}
+.nyyct a:hover{color:#337601;}
+
+.nywz{ padding:15px 0 20px 17px; line-height:24px;}
+.nywz2{ padding:15px 0 20px 13px; line-height:24px;}
+
+
+/*.xwul2{ line-height:35px; margin-top:-6px; padding:10px 10px 0 10px;}
+.xwul2 li{display:block; overflow:hidden; border-bottom:1px dotted #e2e0e0; background:url(dd.gif) no-repeat 0 50%; padding-left:20px;}
+.xwul2 span{ color:#939faf; padding-left:15px; float:right;}*/
+
+.xwul2{ line-height:35px; margin-top:-6px; padding:10px 10px 10px 10px;}
+.xwul2 li{display:block; overflow:hidden; border-bottom:1px dotted #e2e0e0;}
+.xwul2 span{ color:#aeaeae; padding-right:15px; float:left; line-height:32px;}
+.xw_cbp{ height:25px; line-height:25px;text-align: center; display:inline;display:block; overflow:hidden;}
+
+
+.cp2{padding-bottom:6px; width:730px;}
+.cp2 li{float:left; width:218x; display:block;cursor:pointer; padding-right:11px; padding-bottom:10px;}
+
+/* 未知大小的图片在已知容器中的垂直居中和水平居中 */
+.cp2 dl dd{float:left; margin-bottom:4px;}
+.cp2 li dl p a{ width:130px; height:23px;*height:18px;_height:18px; text-align:center; background:#efefef; line-height:19px; clear:both; display:block; overflow:hidden;}
+.cp2 li dl p a:hover{ width:130px; height:23px;*height:18px;_height:18px; text-align:center; background:#cbe489; line-height:19px; clear:both; color:#327501;}
+.cp2 dl dd img{margin-top:expression(57-this.height/2);max-height:115px;max-width:129px;}/* max-height可限制图片的最大高度 */
+.cp2 dl dd a{border:2px solid #ececec; text-align:center; margin-bottom:10px; display:block;}
+.cp2 dl dd a:hover {border:2px solid #cbe489; text-align:center;}
+.cp2 dl dd a,.cp2 dl dd a:hover{width:129px;height:115px; display:block;text-align:center;vertical-align:middle;display:table-cell;}
+/* 未知大小的图片在已知容器中的垂直居中和水平居 */
